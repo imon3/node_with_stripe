@@ -1,9 +1,4 @@
-const express = require("express");
-const stripe = require("stripe")("sk_test_CtsHOqXUxhFmYGSlmQYjHwlj007A8zbQT4");
-const bodyParser = require("body-parser");
-const handleBars = require("express-handlebars");
-
-const server = express();
+const server = require("./server");
 
 const port = process.env.PORT || 5000;
 
