@@ -1,0 +1,15 @@
+{
+  "name": "node_with_stripe",
+  "version": "1.0.0",
+  "description": "Book Seller App",
+  "main": "app.js",
+  "repository": "https://github.com/imon3/node_with_stripe.git",
+  "author": "Imon Ovbude <imonovbude@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "stripe": "^7.2.0"
+  }
+}
