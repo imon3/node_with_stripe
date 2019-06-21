@@ -7,8 +7,8 @@
   "author": "Imon Ovbude <imonovbude@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
